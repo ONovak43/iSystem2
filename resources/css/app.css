@@ -1,0 +1,217 @@
+body {
+    color: #4D504A;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+header {
+    border-bottom: 2px solid #4D504A;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.mistnost {
+    font-size: 2em;
+}
+.zobrazit-rozvrh {
+    font-size: 0.75em;
+    color: #999999;
+}
+.hodina {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.vyucujici {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.progress {
+    height: 1.5rem;
+}
+.progress-bar {
+    background-color: #519136;
+    transition: none;
+}
+.casy {
+    width: 60%;
+    font-weight: bold;
+}
+.nasleduje {
+    font-size: 1.5em;
+}
+.nasledujici-hodina {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.vyuka-probiha {
+    font-size: 1.7em;
+}
+.zadna-hodina {
+    font-size: 1.2em;
+}
+a[target="_blank"]::after {
+    content: " »";
+}
+@media (max-width: 575px) {
+    body{
+        font-size: 8px;
+    }
+    .logo {
+        width: 80px;
+    }
+    main {
+        min-height: 360px;
+    }
+}
+@media (min-width: 576px) {
+    body{
+        font-size: 8px;
+    }
+    .logo {
+        width: 150px;
+    }
+    main {
+        min-height: 560px;
+    }
+}
+@media (min-width: 768px) {
+    body{
+        font-size: 9px;
+    }
+    .logo {
+        width: 200px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    body{
+        font-size: 12px;
+    }
+    .logo {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        font-size: 16px;
+    }
+    .logo {
+        width: 280px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.vyber-ucebnu {
+    width: 258px;
+}
+
+.ucebna {
+    border-radius: 6px;
+    background-color: #519136;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.ucebna:hover {
+    background-color: #82CD62;
+}
+
+.prohlizeni a {
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+}
+
+.prohlizeni a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+.vyber-ucebny-nadpis {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.ucebna-nazev {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.odstranit {
+    border:0;
+    background:none;
+}
+
+.odstranit img {
+    fill: #ff4455;
+}
+
+.timeFrom {
+    float: left;
+    clear: both;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+.lessonSchedule {
+    font-weight: bold;
+    font-size: 17px;
+    clear: both;
+    color: black;
+}
+
+.timeTo {
+    float: right;
+    clear: both;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+
+.One-time {
+    background-color: #fdbb74;
+}
+
+footer {
+    border-top: 2px solid #4D504A;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 50px !important;
+}
+
+footer a {
+    color: #999999;
+    font-size: 0.7em;
+}
+
+.Př {
+    background-color: #6c757d;
+}
+.Zápočet {
+    background-color: #eeef97;
+}
+.Se {
+    background-color: #a4ef97;
+}
+.Blokace {
+    background-color: #cbc1e7;
+}
+
+a:hover {
+    text-decoration: none;
+}
