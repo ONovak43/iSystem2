@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
-        "guzzlehttp/guzzle": "6.4.1",
+        "guzzlehttp/guzzle": "6.5.7",
         "kevinrob/guzzle-cache-middleware": "v3.2.1",
         "laravel/framework": "^6.2",
         "laravel/telescope": "2.0.x-dev",
